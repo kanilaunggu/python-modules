@@ -3,6 +3,8 @@ import os
 import sys
 
 if __name__ == "__main__":
+    //memanggil folder pydjango dan file settings.py
+    //suatu ketika website blank mungkin bisa jadi dari sini.
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "pydjango.settings")
     try:
         from django.core.management import execute_from_command_line
